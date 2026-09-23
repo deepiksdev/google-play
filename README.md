@@ -31,6 +31,20 @@ reaching devices are signed by Google's app-signing key, so those need the
 *app-signing* fingerprints from Play Console instead. Add these as well only to
 cover release builds installed directly rather than through Play.
 
+## screenshots/
+
+Store listing screenshot candidates, captured from the Galaxy Tab A9 on the
+API 36 build. Valid to upload, but 800 px on the short side, so they do not
+reach the 1080 px Play wants for large-screen recommendations — see
+[`screenshots/README.md`](screenshots/README.md).
+
+## data-safety.md
+
+A draft of Play Console's Data safety form, derived from the Android source so
+each answer cites the code behind it. Not submitted — it ends with the
+questions the source cannot answer, including account deletion, which is a
+product gap rather than paperwork.
+
 ## How the Android build finds them
 
 `app/build.gradle.kts` in `deepiksdev/kotlin` reads `keys/key.properties` from
