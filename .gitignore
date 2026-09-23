@@ -1,0 +1,10 @@
+# Secrets. keys/ holds the Play upload keystore and, later, the Play
+# Developer API service-account JSON.
+keys/
+*.jks
+*.keystore
+key.properties
+.env
+
+# OS
+.DS_Store
